@@ -1,5 +1,5 @@
 {
-    'name': 'Test Panda',
+    'name': 'Odoo Pandas XLSX Generator',
     'version': '1.0',
     'category': 'Tools',
     'summary': 'Generates an XLSX file on module installation',
