@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import models, api
 import pandas as pd
 
@@ -20,7 +19,3 @@ class XLSXGenerator(models.Model):
         df.to_excel(file_path, index=False)
         
         return file_path
-
-    @api.model
-    def _install_hook(self):
-        self.generate_xlsx_file()
